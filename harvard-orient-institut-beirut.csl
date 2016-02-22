@@ -127,9 +127,11 @@
     </layout>
   </citation>
   <bibliography hanging-indent="true" et-al-min="4" et-al-use-first="1">
+    <!-- The bibliogrpahie should be sorted by author, date, title -->
     <sort>
-      <key macro="author"/>
-      <key variable="title"/>
+      <key macro="author" sort="ascending"/>
+      <key macro="year-date" sort="ascending"/>
+      <key variable="title" sort="ascending"/>
     </sort>
     <layout>
       <text macro="author" suffix="."/>
